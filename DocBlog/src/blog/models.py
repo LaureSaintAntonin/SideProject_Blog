@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User  # Assurez-vous d'importer User depuis le bon emplacement
 from django.utils import timezone
 
-class Post(models.Model):
+class Article(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)  # Utilisation de models. CASCADE comme exemple
     title = models.CharField(max_length=200)
     text = models.TextField()
