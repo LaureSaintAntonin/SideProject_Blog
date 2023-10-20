@@ -9,7 +9,7 @@ html, body {
 }
 
 .container {
-    background-image: url("Tatooine.jpg");
+    background-image: url("sheetpaper.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,6 +27,6 @@ html, body {
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    color: white;
+    color: black;
     background-color: rgba(0, 0, 0, .5);
 }
